@@ -5,7 +5,6 @@
 A production-quality surreal natural-language puzzle game powered by Google Gemini AI and built with React, Vite, Tailwind CSS, Framer Motion, and Node.js.
 
 ### 🌐 Live Links
-- **Live Demo**: [https://dream-inference-lab.preview.emergentagent.com/](https://dream-inference-lab.preview.emergentagent.com/)
 - **GitHub Repository**: [https://github.com/Samarth003-ai/dream-logic](https://github.com/Samarth003-ai/dream-logic)
 - **Local Running Server**: `http://localhost:3001`
 
