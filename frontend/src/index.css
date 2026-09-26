@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dream-bg: #08090D;
+  --color-dream-card: #101421;
+  --color-dream-violet: #27213A;
+  --color-dream-glow: #B7A6FF;
+  --color-dream-text: #E8E5F0;
+  --color-dream-muted: #858292;
+  --color-dream-border: rgba(183, 166, 255, 0.15);
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: #08090D;
+  color: #E8E5F0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Dream Logic styling utilities */
+.font-narrative {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-ui {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-system {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Grain texture overlay */
+.bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+/* Atmospheric dream glow */
+.dream-glow-radial {
+  background: radial-gradient(circle at 50% 40%, rgba(183, 166, 255, 0.08) 0%, rgba(39, 33, 58, 0.03) 45%, rgba(8, 9, 13, 0) 70%);
+}
+
+.dream-glow-text {
+  text-shadow: 0 0 20px rgba(183, 166, 255, 0.35);
+}
+
+.shadow-glow-sm {
+  box-shadow: 0 0 15px rgba(183, 166, 255, 0.15);
+}
+
+.shadow-glow-md {
+  box-shadow: 0 0 30px rgba(183, 166, 255, 0.25);
+}
+
+.shadow-glow-lg {
+  box-shadow: 0 0 50px rgba(183, 166, 255, 0.35);
+}
+
+/* Vignette effect */
+.vignette-overlay {
+  background: radial-gradient(circle at center, transparent 50%, rgba(8, 9, 13, 0.8) 100%);
+  pointer-events: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #08090D;
+}
+::-webkit-scrollbar-thumb {
+  background: #27213A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B7A6FF;
+}
