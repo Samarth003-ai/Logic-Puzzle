@@ -1,4 +1,5 @@
-# DREAM LOGIC
+# LOGIC PUZZLE
+
 
 > **"Some worlds only make sense when you stop making sense."**
 
